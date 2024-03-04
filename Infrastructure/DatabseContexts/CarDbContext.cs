@@ -8,7 +8,12 @@ namespace WebApiCar.Infrastructure.DatabseContexts
         public virtual DbSet<Car> Cars { get; set; }
         public virtual DbSet<User> Users { get; set; }
 
+
+        public CarDbContext(DbContextOptions<CarDbContext> options) : base(options)
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseNpgsql("Host=my_host;Database=my_db;Username=my_user;Password=my_pw");
+            => optionsBuilder.UseNpgsql("Host=aws-0-eu-central-1.pooler.supabase.com;Database=postgres;Username=postgres.wbasgoycajolaqvzlwcn;Password=*h9AB_AnBnJE&hS");
     }
 }

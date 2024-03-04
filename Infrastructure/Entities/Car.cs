@@ -1,8 +1,7 @@
 ﻿namespace WebApiCar.Infrastructure.Entities
 {
-    public class Car
+    public class Car : BaseEntity
     {
-        public int Id { get; set; }
         public string Brand { get; set; } = default!;
         public string RegistryPlate { get; set; } = default!;
         public string VinNumber { get; set; } = default!;
