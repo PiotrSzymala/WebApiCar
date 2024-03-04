@@ -1,4 +1,4 @@
-﻿namespace WebApiCar.Services
+﻿namespace WebApiCar.Application.Services
 {
     public interface ICarService
     {

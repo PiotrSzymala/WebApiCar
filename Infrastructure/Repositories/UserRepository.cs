@@ -12,9 +12,9 @@ namespace WebApiCar.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<User> GetUserAsync(string mail)
+        public async Task<User> GetUserAsync(string username)
         {
-            return await _context.Users.FirstOrDefaultAsync(x => x.Mail == mail);
+            return await _context.Users.FirstOrDefaultAsync(x => x.Username == username);
         }
         public async Task<IEnumerable<User>> GetAllUsersAsync()
         {

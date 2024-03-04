@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApiCar.Services;
+using WebApiCar.Application.Services;
 
 namespace WebApiCar.Controllers
 {
@@ -14,12 +14,11 @@ namespace WebApiCar.Controllers
             _carService = carService;
         }
 
-        [HttpGet]
-        [Route("cars/{carId}")]
-        public async Task<ActionResult> GetCar([FromRoute] int carId)
-        {
-            var car = _carService.
+        //[HttpGet]
+        //[Route("cars/{carId}")]
+        //public async Task<ActionResult> GetCar([FromRoute] int carId)
+        //{
 
-        }
+        //}
     }
 }

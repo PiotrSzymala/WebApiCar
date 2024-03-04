@@ -1,7 +1,7 @@
 ﻿using WebApiCar.Infrastructure.DatabseContexts;
 using WebApiCar.Infrastructure.Repositories;
 
-namespace WebApiCar.Services
+namespace WebApiCar.Application.Services
 {
     public class CarService : ICarService
     {
