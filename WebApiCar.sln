@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiCar", "WebApiCar.csproj", "{1ECA8BDB-AFF2-4659-8D69-5C12D046999F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApi.Tests", "..\CarApi.Tests\CarApi.Tests.csproj", "{93E02738-53B9-4C53-855F-9B3EB61BD246}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApi.Tests", "CarApi.Tests\CarApi.Tests.csproj", "{93E02738-53B9-4C53-855F-9B3EB61BD246}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
