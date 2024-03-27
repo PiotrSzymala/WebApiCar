@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiCar", "WebApiCar.csproj", "{1ECA8BDB-AFF2-4659-8D69-5C12D046999F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiCar", "WebApiCar.csproj", "{1ECA8BDB-AFF2-4659-8D69-5C12D046999F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiCar.Tests", "..\WebApiCar.Tests\WebApiCar.Tests.csproj", "{6E7B49AA-35FF-45C7-8B11-7B814D9642EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1ECA8BDB-AFF2-4659-8D69-5C12D046999F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ECA8BDB-AFF2-4659-8D69-5C12D046999F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ECA8BDB-AFF2-4659-8D69-5C12D046999F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E7B49AA-35FF-45C7-8B11-7B814D9642EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7B49AA-35FF-45C7-8B11-7B814D9642EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7B49AA-35FF-45C7-8B11-7B814D9642EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7B49AA-35FF-45C7-8B11-7B814D9642EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
